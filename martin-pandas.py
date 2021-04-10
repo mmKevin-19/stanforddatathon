@@ -3,9 +3,14 @@ from sklearn import datasets
 import pandas as pd
 import matplotlib.pyplot as plot
 
-# named df not df_csv
-X = pd.read_csv("lifestyle.csv", usecols=[1, 3, 4])
-y = pd.read_csv("lifestyle.csv", usecols=[2])
+# all columns
+allcols = pd.read_csv("data/lifestyle.csv")
+# for s in allcols.columns:
+#     print(s)
+
+
+X = pd.read_csv("data/lifestyle.csv", usecols=[1, 3, 4])
+y = pd.read_csv("data/lifestyle.csv", usecols=[2])
 y = y.astype('int')
 
 lm = linear_model.LinearRegression()
