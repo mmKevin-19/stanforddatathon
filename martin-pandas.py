@@ -13,3 +13,7 @@ model = lm.fit(X, y)
 
 predictions = lm.predict(X)
 print(predictions[0:5])
+
+print("score: ", lm.score(X, y))
+print("coef: ", lm.coef_)
+print("intercept: ", lm.intercept_)
