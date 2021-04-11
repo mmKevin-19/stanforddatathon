@@ -21,3 +21,8 @@ WEEKLY_MEDITATION
 AGE
 GENDER
 WORK_LIFE_BALANCE_SCORE
+
+
+fruits 
+todo list 
+shouting 
